@@ -1,0 +1,28 @@
+ALGORITHM checkpoint
+ var
+   ch:STRING;
+   i:INTEGER;
+   w:INTEGER:=1;
+ nb-voyelles:STRING:=0;
+BEGIN
+ write("ecrire votre phrase")
+   read(ch)
+  
+   FOR i FROM 0 TO ch.length-1   STEP 1  DO
+      
+   IF (ch[i]==" " ) THEN
+      w:=w+1
+      END_IF
+   IF (ch[i]==a or e or o or i or u or y or A or E or O or I or U or Y) THEN
+   nb-voyelles:=nb-voyelles+1
+     
+
+   END_IF
+
+   END_FOR
+ write("le nombre des motes dans votre phrase est:",w);
+ write("le nombre des voyelles dans votre phrase est:",nb-voyelles)
+  write("le nombre des caracters dans votre phrase est:",ch.length)
+
+
+END

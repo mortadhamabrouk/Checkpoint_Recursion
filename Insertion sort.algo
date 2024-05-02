@@ -1,0 +1,15 @@
+ALGORITHM algorithm_name
+VAR
+    n=tab.length
+BEGIN
+    FOR i FROM 0 TO n STEP 1  DO
+j=i+1
+        WHILE (j>0) DO
+            if tab[j]<tab[j-1]
+            swap(tab[j],tab[j-1])
+            j--
+
+        END_WHILE
+    END_FOR
+
+END
